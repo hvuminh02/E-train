@@ -357,8 +357,8 @@ const sendChatBtn = document.getElementById("send-btn");
 let userMessage = null;
 
 // REPLACE with your Langflow/AI backend details
-const API_ENDPOINT = "http://localhost:7860/api/v1/run/e1d87a50-1425-4b0e-b205-096ef8d9c0a6";
-const API_KEY = "sk-whdJTLiPRwKE9IaPWQFQP9lqGXm27OVCakncqslJj4E";
+const API_ENDPOINT = "https://dev-test.autobiz.ai/api/v1/run/8ebc8d9d-ba61-45eb-b5a8-5aa7e3f701ee";
+const API_KEY = "sk-ms3iz0gNocLgpmJMa19R2BzdkDsll6ZZCm_Q0oTEL-s";
 
 // =======================================================================
 // CHAT HISTORY
