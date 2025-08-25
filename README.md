@@ -1,6 +1,6 @@
-📚 EduWise – AI-Powered E-Learning Platform
+📚 Etrain – AI-Powered E-Learning Platform
 
-EduWise is a modern e-learning platform enhanced with an AI-powered chatbot that leverages Retrieval-Augmented Generation (RAG) and Langflow. It provides learners with personalized, accurate, and context-aware study support, transforming how students interact with course material.
+Etrain is a modern e-learning platform enhanced with an AI-powered chatbot that leverages Retrieval-Augmented Generation (RAG) and Langflow. It provides learners with personalized, accurate, and context-aware study support, transforming how students interact with course material.
 
 This project demonstrates how Generative AI + Knowledge Retrieval can be applied to education, highlighting expertise in LLM integration, workflow design, and full-stack development.
 
@@ -33,4 +33,4 @@ This project demonstrates how Generative AI + Knowledge Retrieval can be applied
 
 🌐 Live Demo
 
-👉 [EduWise Live Website](https://hvuminh02.github.io/E-train)
+👉 [Etrain Live Website](https://hvuminh02.github.io/E-train)
