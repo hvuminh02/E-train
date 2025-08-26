@@ -330,7 +330,69 @@ const chatbotStyles = `
     border-radius: 50%;
     transition: background 0.2s ease;
 }
-.chat-input span:hover { background: #f1f3f5; }`;
+.chat-input span:hover { background: #f1f3f5; 
+/* Mobile-friendly styles */
+
+@media (max-width: 768px) {
+    #chatbot-container {
+        width: 90%;
+        max-height: 80vh;   /* Fit within viewport height */
+        bottom: 100px;
+        right: 5%;
+        left: 5%;
+        border-radius: 16px;
+    }
+    #chatbot-toggler {
+        bottom: 25px;
+    }
+
+    #chatbox {
+        height: calc(70vh - 100px); /* Adjust dynamically */
+        padding: 20px 12px 15px;
+    }
+
+    .chatbot-header h2 {
+        font-size: 1rem;
+    }
+
+    .chat p {
+        max-width: 100%; /* Allow full width on mobile */
+        font-size: 0.9rem;
+    }
+
+    .chat-input textarea {
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra small (phones < 480px) */
+@media (max-width: 480px) {
+    #chatbot-container {
+        width: 95%;
+        bottom: 100px;
+        left: 2.5%;
+        right: 2.5%;
+        max-height: 85vh;
+    }
+    #chatbot-toggler {
+        bottom: 25px;
+    }
+
+    .chat-input {
+        gap: 5px;
+    }
+
+    .chat-input textarea {
+        height: 45px;
+        padding: 10px;
+    }
+
+    .chat-input span {
+        height: 45px;
+        width: 45px;
+        font-size: 1.2rem;
+    }
+}`;
 const styleSheet = document.createElement("style");
 styleSheet.innerText = chatbotStyles;
 document.head.appendChild(styleSheet);
