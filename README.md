@@ -31,6 +31,16 @@ This project demonstrates how Generative AI + Knowledge Retrieval can be applied
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Demo picture and Workflow
+This is a little demo
+<img width="1900" height="978" alt="{4D1CD5EE-1E9F-48F1-A669-3EE7CC84710B}" src="https://github.com/user-attachments/assets/7a9eaf77-b61a-4441-acb0-c23ec71ccdfe" />
+
+Here is the workflow built in Langflow
+<img width="1920" height="978" alt="{1655ECC4-62E1-4DB6-9294-CAA49BB9D960}" src="https://github.com/user-attachments/assets/3b86fe6d-e126-4fd3-91ca-c4dc2d493edf" />
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🌐 Live Demo
 
 👉 [Etrain Live Website](https://hvuminh02.github.io/E-train)
