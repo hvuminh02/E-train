@@ -233,9 +233,18 @@ const chatbotStyles = `
     font-size: 1.3rem; margin: 0; color: #fff; letter-spacing: 1px
     }
 .chatbot-header #close-btn {
-    position: absolute; right: 15px; top: 50%; 
+    position: absolute; 
+    right: 15px; top: 50%; 
     transform: translateY(-50%);
-    cursor: pointer; font-size: 1.4rem;
+    cursor: pointer; font-size: 2rem;
+    font-weight: bold;
+    width: 36px;
+}
+
+.chatbot-header #close-btn:hover {
+    color: #ff4d4d;    /* red on hover */
+    transform: translateY(-50%) scale(1.2); /* pop out */
+    transition: 0.2s ease;
 }
 #chatbox { 
     overflow-y: auto; height: 400px; 
