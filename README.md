@@ -42,6 +42,4 @@ Here is the workflow built in Langflow
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🌐 Live Demo
-
-👉 [Etrain Live Website](https://hvuminh02.github.io/E-train)
+🌐 Live Demo  👉 [Etrain Live Website](https://hvuminh02.github.io/E-train)
